@@ -1,0 +1,27 @@
+
+#LeftNav{border-right:none;}
+#CurrentNavNews{background-color:#152227;  border:1px solid white; border-bottom:none;}
+#NavOver{border-left:none;}
+#TopSubTitleNews{font-size:16px; text-align:center;letter-spacing:2.3px;}
+#TopSubTitleNews span{color:rgb(172, 172, 13);}
+
+.HotNews{margin:45px 0 0 0; padding:8px 30px;  }
+.HotNews summary::-webkit-details-marker {  display:none; }
+.HotNews details{text-align: center; }
+.HotNews summary h2{font-size:17px; letter-spacing:3px; font-weight:300;}
+.HotNews summary:focus{color:rgba(21, 176, 196, 0.37);}/*previous nice color but too much for now i think: rgb(179, 179, 19);*/
+.HotNews summary:hover{color:rgba(19, 160, 179, 0.795);}
+.HotNews a{text-decoration:none; color: rgba(167, 167, 73, 0.692);}
+.HotNews a:hover{text-decoration: underline; }
+#HotSiderNews{  position:absolute;  top:-49px;  left:57px;
+  font-size:17px; transform: rotate(-2deg); color:rgba(255, 255, 0, 0.445); }
+
+footer p{color:rgba(255, 255, 255, 0.466); text-align:center;}
+footer span{color:rgb(119, 118, 51); }
+footer #FooterSlogun{     color:rgb(148, 69, 69);   font-size:17px; }
+footer #FooterSlogun span{font-size:18px; font-style:oblique; color:white;}
+footer marquee{  font-size:17px;  color:rgb(131, 53, 53);width:30%;  margin:0 auto;  display:block;  padding-bottom:5px;  text-shadow:1px 1px black;}
+
+@media screen and (max-width:600px){
+  .HotNews{margin-top:25px;}
+  #HotSiderNews{font-size:15.5px; top:-42px; left:-22px; }
