@@ -44,6 +44,7 @@ border-top-right-radius:5px; border-top-left-radius:5px; }
 .HotOverview{position: relative; margin:0 auto; width:60%;}
 #HotSider{position:absolute; font-size:19.5px; top:-42px; left:20px; transform:rotate(-5deg); color:yellow; letter-spacing:1.2px;}
 .Hot summary::-webkit-details-marker {  display:none; }
+/* hides arrows in firefox*/ summary::-moz-list-bullet {list-style-type: none; display: block;}
 .Hot details{text-align: center; }
 .Hot summary h2{font-size:25px; letter-spacing:3px; font-weight:300; }
 .Hot summary:focus{color:rgba(196, 196, 21, 0.37);}
