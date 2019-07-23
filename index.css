@@ -2,8 +2,8 @@
 #LeftNav{border-right:none;}
 #CurrentNavNews{background-color:#152227;  border:1px solid white; border-bottom:none;}
 #NavOver{border-left:none;}
-#TopSubTitleNews{font-size:16px; text-align:center;letter-spacing:2.3px;}
-#TopSubTitleNews span{color:rgb(172, 172, 13);}
+#TopSubTitleNews{font-size:16px; text-align:center;letter-spacing:2.3px;cursor:default;}
+#TopSubTitleNews span{color:rgb(172, 172, 13); }
 
 .HotNews{margin:45px 0 0 0; padding:8px 30px;  }
 .HotNews summary::-webkit-details-marker {  display:none; }
@@ -16,6 +16,8 @@
 #HotSiderNews{  position:absolute;  top:-49px;  left:57px;
   font-size:17px; transform: rotate(-2deg); color:rgba(255, 255, 0, 0.445); }
 
+.HotOverview i{color:rgb(200, 255, 0); }
+
 footer p{color:rgba(255, 255, 255, 0.466); text-align:center;}
 footer span{color:rgb(119, 118, 51); }
 footer #FooterSlogun{     color:rgb(148, 69, 69);   font-size:17px; }
@@ -25,3 +27,5 @@ footer marquee{  font-size:17px;  color:rgb(131, 53, 53);width:30%;  margin:0 au
 @media screen and (max-width:600px){
   .HotNews{margin-top:25px;}
   #HotSiderNews{font-size:15.5px; top:-42px; left:-22px; }
+
+@media screen and (min-width:1300px){#CurrentNavHistory{border-left:1px solid white;}}
