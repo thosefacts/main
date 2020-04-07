@@ -1,0 +1,21 @@
+#RightNav{background-color:#152227;  border:1px solid rgb(218, 248, 255); border-bottom:none;}
+#LeftNavForAbout{border-right:}
+
+.Top{text-align:center;}
+#TitleAbout{font-size:28px; font-family:Georgia, 'Times New Roman', Times, serif; letter-spacing:7px;}
+#TitleAbout{color:rgba(36, 163, 198, 0.836); font-size:22px; text-align:center;
+    margin:30px 21px 55px 0; letter-spacing:2px; transform: rotate(-2deg); user-select:none; -moz-user-select: none;
+    }
+
+.TextBox{line-height:24px; width:70%; margin:0 auto; display:block; }  
+.TextBox i{font-style:normal; } /* can add alt colour but i like it same col*/
+#ImportantText{font-size:19px; color:rgb(224, 224, 226);}
+#ImportantText b{font-weight:normal; color:rgb(54, 212, 214); font-size:22px; padding:0 7px;}
+#ImportantText u{color:rgb(98, 201, 224); font-style:oblique; text-decoration:none; }
+#Welcome{color:white; font-size:20px;;}
+
+.TextBox p{letter-spacing:2px; color:rgb(189, 189, 189);  }
+#TextBox span{ color:rgb(26, 165, 181);}
+.TextBox h3, h4{line-height:5px; letter-spacing:5px; color: rgb(255, 255, 255);  font-weight:normal; border-bottom:1px solid rgb(24, 103, 115); padding-bottom:17px; width:22%; margin:0 auto -5px auto;}
+.TextBox h4{width:45%; font-size:17px;}
+
