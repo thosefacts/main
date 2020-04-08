@@ -38,6 +38,10 @@ border-top-right-radius:5px; border-top-left-radius:5px; }
 .HotOverview{position: relative; margin:0 auto; }
 summary::-moz-list-bullet {list-style-type: none; display: block;}
 summary{cursor:pointer; outline:none; user-select:none; -moz-user-select: none;}
+.HotOverview a{color:rgb(28, 166, 184); text-decoration:none;}
+.HotOverview a:hover{text-decoration:underline;}
+.HotOverview b{color:rgb(23, 175, 177); }
+
 
 .HotNews{margin:45px 0 0 0; color:#ffffff }
 .HotNews summary::-webkit-details-marker {  display:none; }
@@ -48,8 +52,8 @@ summary{cursor:pointer; outline:none; user-select:none; -moz-user-select: none;}
 
 .Hot summary::-webkit-details-marker {  display:none; }
 /* hides arrows in firefox*/ 
-.HotNews p{text-decoration:none; color: rgb(177, 177, 54); font-size:15px; margin:0 20px;}
-.HotNews p:hover{color:rgb(189, 184, 48);  /* border-bottom:.3px solid rgb(233, 233, 154); padding-bottom:1px;*/}
+.HotNews p{text-decoration:none; color: rgb(177, 167, 167); font-size:15px; margin:0 20px;}
+/*.HotNews p:hover{color:rgb(189, 184, 48);}  /* border-bottom:.3px solid rgb(233, 233, 154); padding-bottom:1px;*/
 /* .HotNews span{ color:rgb(243, 231, 160); }  */
 
 /*#HotSiderNews{  position:absolute;  top:-40px;  left:17%; 
