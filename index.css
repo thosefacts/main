@@ -48,7 +48,7 @@ summary{cursor:pointer; outline:none; user-select:none; -moz-user-select: none;}
 
 .Hot summary::-webkit-details-marker {  display:none; }
 /* hides arrows in firefox*/ 
-.HotNews p{text-decoration:none; color: rgb(177, 177, 54); font-size:15px;}
+.HotNews p{text-decoration:none; color: rgb(177, 177, 54); font-size:15px; margin:0 20px;}
 .HotNews p:hover{color:rgb(189, 184, 48);  /* border-bottom:.3px solid rgb(233, 233, 154); padding-bottom:1px;*/}
 /* .HotNews span{ color:rgb(243, 231, 160); }  */
 
