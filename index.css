@@ -77,6 +77,6 @@ footer marquee{  font-size:17px;  color:rgb(131, 53, 53);width:30%;  margin:0 au
 
 @media screen and (max-width:600px){
   .HotNews{margin-top:25px;}
-  #HotSiderNews{font-size:15.5px; top:-42px; left:-22px; }
+  #HotSiderNews{font-size:15.5px; top:-42px; left:-22px; }}
 
 @media screen and (min-width:1300px){#CurrentNavHistory{border-left:1px solid white;}}
