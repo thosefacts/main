@@ -1,0 +1,13 @@
+.MonthNewsBox{
+    padding-top:45px; margin:0 auto; width:90%; ; }
+
+.MonthNews{
+    display:grid; 
+    grid-template-columns:1fr 1fr 1fr 1fr; 
+    justify-items:center;
+    grid-gap: 1px;
+}
+
+.MonthNews u{text-decoration:none; color:rgb(211, 211, 211);  text-align:center;}
+
+.MonthNews p{text-align:left; color:rgb(135, 135, 135); }
