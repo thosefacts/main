@@ -1,0 +1,12 @@
+.WeekNewsBox h3{text-align:center; font-weight:normal; letter-spacing:2px;}
+
+.WeekNews{padding-left:25px; text-align:left; display:grid; grid-template-columns: 1fr 1fr ; grid-gap:20px;}
+.WeekNews div{ margin: 0 auto;}
+.WeekNews p{text-align:left; color:rgb(135, 135, 135); }
+.WeekNews p:hover{color: rgb(165, 159, 112); color:rgb(135, 135, 135)}
+
+.WeekNews span{font-size:15px; font-weight:normal; color: rgb(165, 159, 112);}
+.WeekNews h2{font-size:15px; font-weight:normal; color: rgb(165, 159, 112);}
+
+
+.WeekNewsBox{padding-top:45px; margin:0 auto; width:70%; ; }
