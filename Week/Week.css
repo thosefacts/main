@@ -8,5 +8,7 @@
 .WeekNews span{font-size:15px; font-weight:normal; color: rgb(165, 159, 112);}
 .WeekNews h2{font-size:15px; font-weight:normal; color: rgb(165, 159, 112);}
 
+.WeekNews a{color:rgb(123, 123, 209); text-decoration:none; } 
+.WeekNews a:hover{text-decoration:underline; }
 
 .WeekNewsBox{padding-top:45px; margin:0 auto; width:70%; ; }
