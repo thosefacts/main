@@ -73,8 +73,11 @@ footer marquee{  font-size:17px;  color:rgb(131, 53, 53);width:30%;  margin:0 au
 #TopSubTitle{font-size:16px; text-align:center;padding:2px 0 40px 0; letter-spacing:2.3px;  border-bottom:2px solid white; }
 #TopSubTitle span{color:rgb(172, 172, 13);}
 
-.SecondNav{display:grid; grid-template-columns: 1fr 1fr; text-align:center; margin:85px auto -28px auto ; color:rgb(5, 130, 86);
+.SecondNav{display:grid; grid-template-columns: 1fr 1fr; text-align:center; margin:85px auto -28px auto ; 
 width:25%; }
+.SecondNav a{text-decoration:none; color:rgb(5, 130, 86);  }
+.SecondNav a:hover{border-bottom:1px solid rgba(255, 255, 255, 0.34); padding-bottom:1px;  transition: all .4s ease;}
+
 
 
 
