@@ -20,11 +20,10 @@
 .SpareGrid a:hover{background-image:-webkit-linear-gradient(bottom right, rgba(33, 234, 241, 0.075), rgba(255, 255, 255, 0.082)); }
 
 
-@media only screen and (max-width: 830px) {
+@media only screen and (max-width: 950px) {
     .SpareGrid{ grid-template-columns:1fr 1fr 1fr; width:90%; grid-gap:12px;;}
     .SpareGrid>a{width:90%; margin:0 auto;  }
     .SpareGrid img{border:.7px solid rgb(177, 177, 177); }
-
 
 }
 
