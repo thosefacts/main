@@ -6,12 +6,16 @@
 
 .SpareGrid{ display:grid; grid-template-columns: 1fr 1fr 1fr 1fr; grid-gap:0; margin:0 auto; width:94%; grid-gap:19px;} 
 
-.SpareGrid img{ width:100%; display:block; border-radius:8px; margin:2px auto 2px auto; border:.6px solid rgb(162, 162, 162);}
+.SpareGrid img{ width:100%; display:block; border-radius:8px; margin:2px auto 0 auto; border:.6px solid rgb(162, 162, 162);}
 
 .SpareGrid>div{border-radius:7px; }
 
 
-.SpareGrid p{font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif ;  text-align:center; font-size:17px; letter-spacing:1.1px; color: rgb(169, 127, 127); margin-bottom:4.5px;}
+.SpareGrid p{font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif ;  text-align:center; font-size:17px; letter-spacing:1.1px; color: rgb(169, 127, 127);
+    margin: 3px 0 4.5px 0; display: block;}
+
+.SpareGrid p span{font-size:12px; color: rgb(185, 166, 166); font-style:oblique; width:80%; margin:0 auto;  display:block; }
 
 .SpareGrid a{text-decoration:none; border-radius:8px; padding:0 3px;}
 .SpareGrid a:hover{background-image:-webkit-linear-gradient(bottom right, rgba(33, 234, 241, 0.075), rgba(255, 255, 255, 0.082)); }
+
