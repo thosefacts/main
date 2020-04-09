@@ -11,3 +11,7 @@
 .MonthNews u{text-decoration:none; color:rgb(211, 211, 211);  text-align:center;}
 
 .MonthNews p{text-align:left; color:rgb(135, 135, 135); }
+
+#MonthlyNewsTitle{color:rgba(255, 255, 0, 0.53); font-size:19px; text-align:center;
+    margin:1px 21px 32px 0; letter-spacing:2px; transform: rotate(-2deg); user-select:none; -moz-user-select: none;
+    }
