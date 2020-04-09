@@ -1,0 +1,24 @@
+
+
+.SuggestionHeader{text-align:center;}
+#SuggestionTitle{font-size:27px; letter-spacing:12px; color: rgb(231, 231, 231); }
+#SuggestionSub{font-size:24px; letter-spacing:2px; font-style:oblique;  ; letter-spacing:12p; padding-bottom:25px; border-bottom:1.5px solid white; color: rgb(177, 70, 88); display:block; margin:0; }
+
+.Article{ ;}
+.Article img{ width:100%; margin:0 auto; display:block; max-height:240px; object-fit:cover; border-bottom:2px solid rgb(187, 187, 187); }
+
+
+
+
+/* Recipe */ 
+.TextGridRecipe{display:grid; grid-template-columns:.8fr 2fr; grid-gap:8px; margin:0 auto; width:95%; color: rgb(233, 233, 233); }
+#Intro{ font-weight:normal; letter-spacing:2px; font-size:19px; border-bottom:.5px solid grey; padding-bottom:12px;}
+#Intro span{ font-size:14px; color:rgb(184, 184, 184);}
+#List span{color:rgb(134, 134, 134);}
+#List{color: rgb(138, 117, 117); }
+#List b{font-weight:normal; color: rgb(216, 216, 216); }
+
+#Instructions{margin-top:45px; color:rgb(231, 231, 231); text-align:center; font-size:18px; }
+#Instructions b{font-weight:normal; color: rgb(235, 51, 82); }
+#Instructions span{ font-size:16.5px; color: rgb(204, 101, 101); font-style:oblique}
+#InstructionsTitle{letter-spacing:2px; color: rgb(190, 190, 190);  }
