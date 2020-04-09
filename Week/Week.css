@@ -12,6 +12,6 @@
 .WeekNews a:hover{text-decoration:underline; }
 
 .WeekNewsBox{padding-top:45px; margin:0 auto; width:70%; ; }
-#WeeksNews{color:rgba(255, 255, 0, 0.53); font-size:19px; text-align:center;
+#WeeklyNewsTitle{color:rgba(255, 255, 0, 0.53); font-size:19px; text-align:center;
     margin:1px 21px 37px 0; letter-spacing:2px; transform: rotate(-2deg); user-select:none; -moz-user-select: none;
     }
