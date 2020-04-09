@@ -46,7 +46,7 @@ summary{cursor:pointer; outline:none; user-select:none; -moz-user-select: none;}
 .HotNews{width:60%; margin:45px auto 0 auto ; color:#ffffff }
 .HotNews summary::-webkit-details-marker {  display:none; }
 .HotNews details{text-align: center; line-height:22px;   }
-.HotNews summary h2{font-size:15.4px; letter-spacing:3px; font-weight:300; margin-bottom:25px; }
+.HotNews summary h2{font-size:14.4px; letter-spacing:3px; font-weight:300; margin-bottom:25px; }
 .HotNews summary:hover{text-decoration:underline; color:rgb(101, 237, 255)}
 .HotNews summary:focus{color:rgb(79, 197, 213); -webkit-text-stroke:.1px black;}
 
@@ -61,7 +61,6 @@ summary{cursor:pointer; outline:none; user-select:none; -moz-user-select: none;}
 #TodaysNews{color:rgba(255, 255, 0, 0.53); font-size:19px; text-align:center;
 margin:50px 21px 45px 0; letter-spacing:2px; transform: rotate(-2deg); user-select:none; -moz-user-select: none;
 }
-
 
 /*FOOTER */
 footer p{color:rgba(255, 255, 255, 0.466); text-align:center; }
