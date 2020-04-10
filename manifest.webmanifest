@@ -1,0 +1,20 @@
+{
+    "name": "Those Facts",
+    "short_name": "Those Facts",
+    "description": "Summarized News",
+    "icons": [{
+      "src": "/Images/favicon-192.png",
+      "type": "image/png",
+      "sizes": "192x192"
+    }
+    {
+      "src": "/Images/favicon-512.png",
+      "type": "image/png",
+      "sizes": "512x512"
+    }
+  ],
+    "start_url": "/?utm_source=homescreen",
+    "background_color": "#fafafa",
+    "theme_color": "#fafafa",
+    "display": "standalone",
+  }
