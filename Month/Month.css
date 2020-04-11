@@ -6,6 +6,7 @@
     grid-template-columns:1fr 1fr 1fr 1fr; 
     justify-items:center;
     grid-gap: 1px;
+    grid-column-gap:8px;
 }
 
 .MonthNews u{text-decoration:none; color:rgb(211, 211, 211);  text-align:center;}
