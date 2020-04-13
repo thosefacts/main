@@ -84,9 +84,7 @@ width:25%; white-space:nowrap; }
 .SecondNav a:hover{border-bottom:1px solid rgba(255, 255, 255, 0.34); padding-bottom:1px;  transition: all .4s ease;}
 
 summary {display:block;} 
-summary::-webkit-details-marker {
-  display: none;
-}
+summary::-webkit-details-marker {  display: none; }
 
 @media screen and (max-width:600px){
   .HotNews{margin-top:25px;}
@@ -137,12 +135,23 @@ header h1{font-size:29px; letter-spacing:9px; }
 .WeekNews p{font-size:18px; }
 .WeekNews p span{font-size:18px;}
 .MonthNews p{font-size:16.8px;}
+
+.Top{border:none;
+  overflow-x:hidden;
+width:100%;
+}
+.EntirePage{
+  width:98%; margin:0 auto 0 0 ;
+}
+
+
 }
 
 @media screen and (max-width:475px){
   .NavGrid a{padding:14px 0; }
   .HotNews summary h2{font-size:15px; letter-spacing:1.2px; }
   .HotNews details{margin-bottom:45px;}
+
 }
 
 
@@ -150,4 +159,3 @@ header h1{font-size:29px; letter-spacing:9px; }
 @media screen and (max-width:755px){
   .SecondNav{ grid-gap:25px;  }
 }
-
