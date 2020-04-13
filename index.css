@@ -117,3 +117,30 @@ summary::-webkit-details-marker {
 
 @media screen and (max-width:1300px){  .EntirePage{width:92vw;}  .Top{ border:1.2px solid white; border-top:none;  } #CurrentNav{border-left:1.2px solid white;}}
 
+/*phone. mobile*/
+@media screen and (max-width:525px){
+header h1{font-size:29px; letter-spacing:9px; }
+.HeadBox{margin:0; padding:2px 0 10px 0; margin-left:15px;}
+#Those{transform:translateX(-35px); display:block; margin-bottom:3.5px; margin:20px 0 15px 0;}
+#AreThe{font-size:13px; margin: 0; display:block; }
+#Facts{transform:translateX(25px); display:block; margin-bottom:-4px; margin-top:3.5px; margin:15px 0 10px 0;}
+#HeadSider1{font-size:16px;}
+#HeadSider2{font-size:16px}
+.NavGrid{ font-size:18px; border-top-left-radius:8px; border-top-right-radius: 8px; ;}
+.NavGrid a{padding:10.5px 0; }
+.EntirePage{width:100vw; max-width:100%; overflow-x: hidden; } 
+
+
+.HotNews{width:78%; }
+.SecondNav{width:48%; font-size:17px; letter-spacing:1.1px;} 
+.HotNews summary h2{font-size:16px; letter-spacing:3px; font-weight:300; margin-bottom:25px; }
+#DivideDate{width:35%; }
+.HotNews p{font-size:16.5px; }
+.WeekNews p{font-size:18px; }
+.WeekNews p span{font-size:18px;}
+.MonthNews p{font-size:16.8px;}
+}
+
+@media screen and (max-width:475px){
+  .NavGrid a{padding:14px 0; }
+}
