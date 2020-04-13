@@ -9,18 +9,16 @@
 }
 
 .MonthNews u{text-decoration:none; color:rgb(211, 211, 211);  text-align:center;}
-
 .MonthNews p{text-align:left; color:rgb(135, 135, 135); }
-
-#MonthlyNewsTitle{color:rgba(255, 255, 0, 0.53); font-size:19px; text-align:center;
-    margin:1px 21px 32px 0; letter-spacing:2px; transform: rotate(-2deg); user-select:none; -moz-user-select: none;
-    }
-
-
-    #Week{
-        font-size:14px; color:rgb(218, 143, 4); 
-        margin:-2.5px 0 0 0; 
-        text-decoration: none;;
-    }
-
+#MonthlyNewsTitle{color:rgba(255, 255, 0, 0.53); font-size:19px; text-align:center; margin:1px 21px 32px 0; letter-spacing:2px; transform: rotate(-2deg); user-select:none; -moz-user-select: none; }
+#Week{font-size:16px; color:rgb(218, 143, 4); margin:-2.5px 0 0 0; text-decoration: none;; }
 #Week:hover{border-bottom:1px solid rgb(163, 116, 14); }
+#WeekDay{font-size:13.5px; font-weight:normal;  letter-spacing:4.5px; color:rgb(136, 99, 30); margin:-2.5px 0 0 0; text-decoration: none;; }
+
+
+@media screen and (max-width:475px){
+    .MonthNews{display:grid; grid-template-columns:1fr 1fr 1fr; grid-gap: 0px;}
+    .MonthNewsBox{ width:88%;}
+    #Week{font-size:16px;}
+    #WeekDay{font-size:15px;}
+}
