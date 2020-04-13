@@ -151,9 +151,9 @@ width:100%;
   .NavGrid a{padding:14px 0; }
   .HotNews summary h2{font-size:15px; letter-spacing:1.2px; }
   .HotNews details{margin-bottom:45px;}
+ .SecondNav{ width:50%;  }
 
 }
-
 
 
 @media screen and (max-width:755px){
