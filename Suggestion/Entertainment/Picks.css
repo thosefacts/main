@@ -1,0 +1,73 @@
+
+h1{
+    font-size:25px; 
+    letter-spacing:3.2px;
+    text-align:center;
+    margin:20px 0 0 0 ; 
+    font-weight: normal;
+}
+
+#EntertainmentSub{ 
+    font-size:24px; letter-spacing:2px; font-style:oblique;  ; letter-spacing:12p; padding-bottom:25px; border-bottom:1.5px solid white; color:rgb(224, 36, 36); display:block; margin:0; }
+
+img{
+    display:block;
+    border-radius:7px;
+    width:100%; 
+    max-height:160px;
+    object-fit: cover;
+}
+
+#WeeklySub{
+text-align:center;
+margin:2px 0 25px 0; 
+letter-spacing:1.2px; 
+padding-bottom:25px; 
+color: rgb(224, 156, 28); 
+border-bottom:1px solid white;
+}
+
+.EntertainmentBox{
+    width:80%; 
+    margin:0 auto; 
+    margin-top:28px;
+}
+
+.EntertainmentBox h2{
+    font-size:16px; 
+    margin-left:15px;
+
+    color:rgb(185, 42, 66); 
+    letter-spacing:1px;
+    text-shadow: 2px 2px black;
+}
+
+.EntertainmentBox p{
+    margin-bottom:35px;
+    margin-left:30px;
+    color:rgb(160, 160, 160); 
+}
+
+.EntertainmentBox a{ 
+    text-decoration: none; ;
+    color:white; 
+}
+.EntertainmentBox a:hover{
+    text-decoration:underline;+
+}
+
+.EntertainmentBox span{ color: rgb(221, 192, 139); 
+    text-shadow: 2px 2px black;}
+
+
+@media only screen and (min-width:950px) {
+    img{
+        width:59%; margin: 0 auto; display: block;
+        margin-top:15px; 
+        border:5px solid rgba(0, 0, 0, 0.514);
+    }
+    .EntertainmentBox{
+    width:65%; 
+    margin-top:35px;
+}
+}  
