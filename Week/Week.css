@@ -35,7 +35,7 @@
 }
 
 @media screen and (max-width:475px){    
-    .WeekNews{ grid-template-columns:1fr; margin-right:32px; }
+    .WeekNews{ grid-template-columns:1fr; margin-right:48px; }
 }
 
 
