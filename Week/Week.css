@@ -6,7 +6,7 @@
 
 .WeekNews span{font-size:15px; font-weight:normal; color: rgb(165, 159, 112);}
 .WeekNews h2{font-size:15px; font-weight:normal; color: rgb(165, 159, 112);}
-.WeekNews a{color:rgb(123, 123, 209); text-decoration:none; } 
+.WeekNews a{color:rgb(54, 165, 180); text-decoration:none; text-shadow:1px 1px rgb(25, 59, 117);  } 
 .WeekNews a:hover{text-decoration:underline; }
 .WeekNewsBox{padding-top:45px; margin:0 auto; width:70%; ; }
 
