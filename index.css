@@ -1,8 +1,6 @@
 /*Welcome*/
-body{margin:0; width:100vw; padding:0; font-family:'CustomBaskerville'; padding-bottom: 15px; word-break:break-word; font-stretch:normal; font-weight:400; background-image:-webkit-radial-gradient(top right,  #004d46, #18272c); margin: 0;    background-repeat: no-repeat;    background-attachment: fixed; font-family:'Times New Roman', Times, serif; }
-html, body {
-    max-width: 100%;
-    overflow-x: hidden;
+body{margin:0; width:100vw; padding:0; font-family:'CustomBaskerville'; word-break:break-word; font-stretch:normal; font-weight:400; background-image:-webkit-radial-gradient(top right,  #004d46, #18272c); margin: 0;    background-repeat: no-repeat;    background-attachment: fixed;
+font-family:'Times New Roman', Times, serif; overflow-x:hidden; 
 }
 
 /* Header */ 
@@ -22,8 +20,7 @@ header h1{font-size:35px; letter-spacing:15px; text-align:center; margin:0;
 .NavGrid{background-color:#0f4947; margin:0;    display:grid;  grid-template-columns: 1fr 1fr 1fr;  text-align:center;  font-size:17px; }
 .NavGrid span{font-size:18px;font-weight: bold; color:#17252a;}
     /*?Links*/
-.NavGrid a{ color:#def2f1; text-decoration:none; padding:7.5px 0;  text-shadow:0px 3px black;  border-bottom:1.1px solid white;
-border-top-right-radius:5px; border-top-left-radius:5px; }
+.NavGrid a{ color:#def2f1; text-decoration:none; padding:7.5px 0;  text-shadow:0px 3px black;  border-bottom:1.1px solid white; border-top-right-radius:5px; border-top-left-radius:5px; }
 .NavGrid a:hover{background-color:#17252a; border:1px solid white; transition: all .8s ease; border-bottom:none;}
 #CurrentNav{color:#def2f1;  font-weight:bold; background-color:#17252a;  border:1px solid white; border-bottom:none; border-left:none; border-right:none; border-top-right-radius:4px; opacity:1;}
 #OtherNav{border-bottom-left-radius:2.5px; border-left:1px solid; white;}
@@ -46,6 +43,7 @@ summary{cursor:pointer; outline:none; user-select:none; -moz-user-select: none;}
 .HotOverview a:hover{text-decoration:underline;}
 .HotOverview b{color:rgb(23, 175, 177); }
 
+#DivideDate{text-align:center; font-size:19px; border-top:1px solid grey; width:20%; margin:15px auto 0 auto; padding:12px 0 5px 0; white-space: nowrap; }
 
 .HotNews{width:60%; margin:45px auto 0 auto ; color:#ffffff }
 .HotNews summary::-webkit-details-marker {  display:none; }
@@ -81,11 +79,10 @@ footer marquee{  font-size:17px;  color:rgb(131, 53, 53);width:30%;  margin:0 au
 #TopSubTitle span{color:rgb(172, 172, 13);}
 
 .SecondNav{display:grid; grid-template-columns: 1fr 1fr; text-align:center; margin:85px auto -28px auto ; 
-width:25%; }
+width:25%; white-space:nowrap; }
 .SecondNav a{text-decoration:none; color:rgb(5, 130, 86);  }
 .SecondNav a:hover{border-bottom:1px solid rgba(255, 255, 255, 0.34); padding-bottom:1px;  transition: all .4s ease;}
 
-/*firefox support*/ 
 summary {display:block;} 
 summary::-webkit-details-marker {
   display: none;
@@ -111,11 +108,13 @@ summary::-webkit-details-marker {
 
 
 /*remember to set max-width to 600(or x) / 2 (from 50vw OR vw/100*10) */
-@media screen and (max-width:300px){  .EntirePage{width:50vw;}  #TopTitle{letter-spacing:12px; font-size:29px; line-height:50px; margin:15px 0 15px 0; }  #TopTitleContro{letter-spacing:10px; font-size:22px; line-height:50px;}  #TopSubTitle{font-size:12.4px;}  .Hot summary h2{font-size:14px; letter-spacing:3px; font-weight:300;}  .NavGrid a{font-size:12px; padding:8px 0;}  #HotMore{font-size:18px; white-space: nowrap;}  .Top{ solid white; border:.4px solid white; border-top:none; }  #CurrentNav{border-left:.4px solid white; }}
+/*@media screen and (max-width:320px){  .EntirePage{width:50vw;}  #TopTitle{letter-spacing:12px; font-size:29px; line-height:50px; margin:15px 0 15px 0; }  #TopTitleContro{letter-spacing:10px; font-size:22px; line-height:50px;}  #TopSubTitle{font-size:12.4px;}  .Hot summary h2{font-size:14px; letter-spacing:3px; font-weight:300;}  .NavGrid a{font-size:12px; padding:8px 0;}  #HotMore{font-size:18px; white-space: nowrap;}  .Top{ solid white; border:.4px solid white; border-top:none; }  #CurrentNav{border-left:.4px solid white; }}
+*/
 
 @media screen and (min-width:1300px){  .EntirePage{width:80vw;}  .Top{ border:1.2px solid white; border-top:none;  } #CurrentNav{border-left:1.2px solid white;}}
 
 @media screen and (max-width:1300px){  .EntirePage{width:92vw;}  .Top{ border:1.2px solid white; border-top:none;  } #CurrentNav{border-left:1.2px solid white;}}
+
 
 /*phone. mobile*/
 @media screen and (max-width:525px){
