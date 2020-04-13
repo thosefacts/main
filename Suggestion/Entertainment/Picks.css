@@ -61,13 +61,18 @@ border-bottom:1px solid white;
 
 
 @media only screen and (min-width:950px) {
-    img{
-        width:59%; margin: 0 auto; display: block;
-        margin-top:15px; 
-        border:5px solid rgba(0, 0, 0, 0.514);
-    }
+
     .EntertainmentBox{
     width:65%; 
     margin-top:35px;
 }
 }  
+
+
+
+@media only screen and (min-width:1250px) {
+        img{
+        width:59%; margin: 0 auto; display: block;
+        margin-top:15px; 
+        border:5px solid rgba(0, 0, 0, 0.514);
+    }}
