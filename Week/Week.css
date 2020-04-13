@@ -30,11 +30,13 @@
 #WeekNumber span{ color: rgb(173, 121, 24); }
 
 
-@media screen and (max-width:675px){
-
+@media screen and (max-width:675px){    
     .WeekNewsBox{padding-top:45px; margin:0 auto; width:97%; ; }
-
-
 }
+
+@media screen and (max-width:475px){    
+    .WeekNewsBox{ grid-template-columns:1fr;  }
+}
+
 
 
