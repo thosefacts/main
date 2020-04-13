@@ -4,7 +4,7 @@
 .WeekNews p{text-align:left; color:rgb(135, 135, 135); }
 .WeekNews p:hover{color: rgb(165, 159, 112); color:rgb(135, 135, 135)}
 
-.WeekNews span{font-size:15px; font-weight:normal; color: rgb(165, 159, 112);}
+.WeekNews span{font-size:15px; font-weight:normal; color: rgb(165, 159, 112); font-weight:bold;;}
 .WeekNews h2{font-size:15px; font-weight:normal; color: rgb(165, 159, 112);}
 .WeekNews a{color:rgb(54, 165, 180); text-decoration:none; text-shadow:1px 1px rgb(25, 59, 117);  } 
 .WeekNews a:hover{text-decoration:underline; }
