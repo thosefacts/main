@@ -1,0 +1,11 @@
+User-agent: googlebot
+Disallow: /History/
+Disallow: /MainPages/ 
+Disallow: /Images/ 
+Disallow: /NewsArticle/
+
+User-agent: *
+Disallow: /History/
+Disallow: /MainPages/ 
+Disallow: /Images/ 
+Disallow: /NewsArticle/
