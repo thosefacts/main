@@ -1,9 +1,1 @@
-User-agent: googlebot
-Disallow: /History/
-Disallow: /MainPages/ 
-Disallow: /NewsArticle/
 
-User-agent: *
-Disallow: /History/
-Disallow: /MainPages/ 
-Disallow: /NewsArticle/
