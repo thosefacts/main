@@ -1,0 +1,47 @@
+#CoverImage1{
+    color:#fff;
+    opacity:.82;
+    border-bottom:2px solid rgb(231, 186, 60);
+    text-align:center;
+    background-image: url(Healing.jpg);
+    background-repeat: repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    font-size: 12px;
+    padding:22px 0 ;
+    -webkit-animation: backgroundScroll 15s linear 1;
+    -webkit-animation-fill-mode: forwards;
+    animation: backgroundScroll 4s linear 1;
+    animation-fill-mode: forwards;
+    border-bottom-left-radius: 11px; 
+    border-bottom-right-radius: 11px;;
+}
+/*check landscape, horizon */
+@-webkit-keyframes backgroundScroll {
+from {opacity:.1}
+to { opacity:1;}
+}
+section-1 img{
+    width:100%;
+    margin-top:25px;
+    margin-bottom:20px; 
+}
+
+section-1 .ArticleContainer{
+    width:50%; 
+    margin:0 auto;
+}
+
+section-1 p{
+    color:purple;
+}
+
+section-1 i{
+    color:rgb(63, 2, 63); 
+
+}
+
+blockquote{
+    text-align: center;;
+    color:rgb(85, 84, 84);
+}
