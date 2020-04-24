@@ -1,0 +1,209 @@
+#CoverImage{
+    color:#fff;
+    opacity:.82;
+    border-bottom:2px solid rgb(231, 186, 60);
+    text-align:center;
+    background-image: url(Horizon.jpg);
+    background-repeat: repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    font-size: 12px;
+    padding:22px 0 ;
+    font-family: 'Dancing Script', cursive;
+    -webkit-animation: backgroundScroll 15s linear 1;
+    -webkit-animation-fill-mode: forwards;
+    animation: backgroundScroll 15s linear 1;
+    animation-fill-mode: forwards;
+    border-bottom-left-radius: 11px; 
+    border-bottom-right-radius: 11px;;
+}
+/*check landscape, horizon */
+@-webkit-keyframes backgroundScroll {
+from {background-position: 0px -370px}
+to {background-position:0px -95px}
+}
+
+
+@media only screen and (min-width:1080px) {
+    #CoverImage{
+-webkit-animation: backgroundScroll2 15s linear 1;
+-webkit-animation-fill-mode: forwards;
+    }
+
+@-webkit-keyframes backgroundScroll2 {
+    from {background-position: 0px -620px}
+    to {background-position:0px -235px}
+    }
+    
+    }
+}
+/* for uplifting page*/
+#SubTitle2{
+    color:grey;
+    width:55%; 
+    margin:8px auto 0 auto;
+    font-size:15.5px;
+    letter-spacing:.48px; 
+}
+
+
+nav-3{
+    display:grid; 
+    width:100%; 
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    justify-items: center;
+    padding-top:12px;
+}
+nav-3 a{
+    letter-spacing:1px; 
+    font-size:15px;
+    text-align: center;
+    text-decoration: none;
+    color:rgb(99, 99, 99);
+    cursor: default;
+    /* del when navs actually exist*/
+}
+/* add when navs actually exist
+nav-3 a:hover{
+    color:rgb(214, 36, 137)
+}
+*/
+
+
+header{
+    border-bottom:.5px solid orange; 
+    padding-bottom:25px;
+    border-radius:9px;
+    letter-spacing:5px; 
+}
+#Current-Nav{
+    font-size:21px;
+    font-style: oblique;;
+}
+
+
+#SubTitle1{text-align:center;
+    font-size:15px;
+    padding:5px 0 ;
+    padding-top:7px;
+    padding-bottom:7px;
+    letter-spacing:2px;
+    /*color:rgb(245, 245, 245);*/
+    color:white;
+    font-style: oblique;
+    margin:7px 0 0 0; color: rgb(199, 132, 44);}
+
+    hr{margin-top:0; color:lightgrey; 
+    padding-bottom:5px; 
+    border-bottom:1px solid grey; 
+    }
+    
+
+    .Map{ 
+        margin:0 auto; 
+        width:70%; 
+    }
+    .Map img{
+    width:100%;
+    object-fit: fit; 
+    border-radius:15px; }
+
+
+
+    .VideoGrid{
+        display:grid;
+        grid-template-columns:1fr 1fr;
+        width:88%; 
+        margin: 0 auto; 
+        grid-column-gap:10%;
+        grid-row-gap:35px;
+        justify-items: center;;
+        padding:15px 0 25px 0;
+    }
+
+    .VideoGrid h2{
+        margin:4px 0 25px 0 ;
+        font-size:17px;
+        text-align:center;
+        font-weight:normal;
+        letter-spacing:.7px;
+    }
+    .VideoGrid a{
+        color:rgb(196, 48, 196);
+        text-decoration:none;
+    }
+    
+    iframe{
+        border-radius:9px;
+        margin:0 auto;
+        margin-bottom:24px;
+        width:360px;
+        height:185px;
+        display:block;
+    }
+    
+    .VideoGrid-2 iframe{
+        margin-bottom:19px;
+    }
+    .VideoGrid-2{
+        margin:31px auto 0 auto; 
+        
+        justify-items: center;;
+    }
+
+
+@media only screen and (min-width:1080px) {
+.VideoGrid-2 iframe{
+    width:550px;
+    height:308px
+
+}
+}
+
+
+@media only screen and (max-width:380px) {
+    .VideoGrid-2 iframe{
+        width:210px;
+        height:118.125px
+    
+    }
+    }
+
+@media only screen and (max-width:550px) {
+    .VideoGrid iframe{
+        width:120px;
+        height:67.5px
+    }
+}
+
+    
+@media only screen and (max-width:750px) {
+    .VideoGrid iframe{
+        width:200px;
+        height:105px; 
+    }
+    .VideoGrid{
+        grid-template-columns: 1fr;;
+    }
+    }
+
+@media only screen and (max-width:1080px) {
+    .VideoGrid iframe{
+        width:320px;
+        height:180px;
+    
+    }
+
+    .VideoGrid{
+        grid-column-gap:4%; ;
+    }
+    }
+
+@media only screen and (min-width:1080px) {
+    .VideoGrid iframe{
+        width:475px;
+        height:267px;
+        margin-top:39px;
+    
+    }
+    }
