@@ -42,7 +42,7 @@ nav p{
         grid-gap:10px;
         background-color:rgb(58, 58, 58); 
         border-top:2px solid rgb(39, 39, 39);   
-        margin-top:-1px;
+        margin-top:-.5px;
         }
 
     
