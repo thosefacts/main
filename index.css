@@ -23,10 +23,8 @@ nav p{
     margin:0;
     display:inline-block;}
 
-/*AltNav*/
 object{width:100%; margin:0;}
 
-/*NAV NAV NAV*/
     nav{
         display: grid;
         
@@ -68,7 +66,6 @@ object{width:100%; margin:0;}
     #Uplifting:hover{color:rgb(253, 210, 90); }
     #Nav3{    grid-template-columns:1fr 1fr 1fr;}
     
-/*tHUMB THUMB THUMB */
 #Thumb{
         color:#fff;
         opacity:.72;
@@ -85,9 +82,6 @@ object{width:100%; margin:0;}
 
 }
 
-/*HEADER HEADER HEADER */
-
-
 footer{
     width:70%; 
     margin:0 auto; 
@@ -97,7 +91,6 @@ footer{
     font-style: oblique;
     letter-spacing:.11px;
     color:rgb(83, 79, 77);/*
-    background-image: -webkit-radial-gradient(bottom, rgba(255, 174, 67, 0.466) 10%, rgba(255, 255, 255, 0), rgba(255, 255, 255, 0));*/
 }
 footer p{margin:12px 0 0 0; padding-bottom:10px;}
 footer hr{
@@ -119,17 +112,6 @@ text-decoration: none;
 font-size:12px;
 text-transform: lowercase;
 }
-/*
-.Try{
-    background-image:-webkit-linear-gradient(bottom, rgb(255, 219, 174), white);
-    padding-bottom:15px;
-    border-bottom:2px solid orange; 
-    margin-top:25px;
-    width:50%; 
-    margin:0 auto;
-    border-radius:12px;
-}*/
-
 #Sub b{
     color:orange; 
 }
@@ -157,20 +139,6 @@ header h1{ Margin:0 0 0 0 ;color:rgb(58, 58, 57);
     hr{margin-top:15px; }
     #SecondHR{margin-top:35px;}
     
-/*    
-
-h1{text-align:center;
-    letter-spacing:4px;
-    font-style:oblique;
-    color:rgb(219, 219, 219);
-    font-size:57px;
-}
-
-h1{ Margin:0 0 5px 0 ;  padding:0; 
-    text-align:center; color:rgb(29, 29, 29); text-shadow:.5px .5px rgb(250, 201, 111); letter-spacing:9px; word-break: break-word; 
-    display:block; 
-}
-*/
 header{font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;}
 
 #Sub{
@@ -233,10 +201,7 @@ margin:0 auto;
 font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 padding-left:85px;
 padding-right:49px;
-}/*
-.EntirePage{
-    background-image: -webkit-linear-gradient(top, rgba(233, 157, 86, 0.171), white, white, white, white, white, white);
-}*/
+}
 header{
     padding-top:25px;
     padding-bottom:11px; 
@@ -276,8 +241,6 @@ details a{
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 
-details a:hover{  }
-
 ::-webkit-scrollbar {
     display:none;
     /*
@@ -285,32 +248,7 @@ details a:hover{  }
     max-height:50%;*/
   }
   
-  /* Track */
-  ::-webkit-scrollbar-track {
-      background:rgb(226, 226, 226); 
-     /*background-image: -webkit-linear-gradient(top, orange, white,  white, white, white, white, white);*/
-   /* 
-    background-image: -webkit-linear-gradient(bottom, white,  rgb(70, 70, 70);*/
-  }
-  /* Handle */
-  ::-webkit-scrollbar-thumb {
-    background:rgb(83, 83, 83);  
-    /*
-    background-image: -webkit-linear-gradient(top, orange, white, white, white);}*/
-   /*background:rgb(70, 70, 70);
 
-
-    background-image: -webkit-linear-gradient(bottom, white,  rgb(70, 70, 70));/*
-
-    border-radius:4px;
-  }
-
-  /* Handle on hover */
-}
-  ::-webkit-scrollbar-thumb:hover {
-      
-
-  }
   
   
 @media only screen and (min-width:870px) {
