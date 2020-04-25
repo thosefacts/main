@@ -233,7 +233,13 @@ opacity:1;
     text-shadow:.7px .7px rgb(213, 175, 224);
 }
 
+@media only screen and (max-width:670px) {
+    .Caption p{
+        display:none; 
+    } 
 
+
+}
 @media only screen and (min-width:1080px) {
     .Youtube-Videos iframe{
         width:350px;
