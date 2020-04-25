@@ -55,7 +55,7 @@ nav p{
 
 @media only screen and (max-width: 450px) {
     nav{
-        grid-template-columns: 2fr 4fr 8fr ;
+        grid-template-columns: 4.5fr 12fr 8fr ;
     }
 
 }
