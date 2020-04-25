@@ -159,9 +159,11 @@ footer{
     text-align:center;
     margin:0 auto;
     color:rgb(100, 38, 100); 
+    padding-bottom:35px;
 }
 footer a{
     font-size:17.2px;
+    text-decoration:none;
 }
 
 
