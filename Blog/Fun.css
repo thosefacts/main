@@ -80,9 +80,6 @@ to {background-position: -210px -215px  }
     }
 }
 
-
-
-
 .Fun-Home h2{
     color:rgb(100, 100, 100); 
     font-size:18.5px;
@@ -91,32 +88,14 @@ to {background-position: -210px -215px  }
 }
 
 .Fun-Home{
-    padding-top:22px;
+    padding-top:2px;
 }
 
-
-.Youtube-Videos{
-    display:grid; 
-    grid-template-columns: 1fr 1fr;
-    width:79%; 
-    grid-gap: 25px;
-    padding:15px 0 20px 25px;
-    padding-left:25px;
-    margin:0;
-}
-
-
-.Youtube-Videos iframe{
-width:250px; 
- height:140.625px;
- margin:0;
- border-radius:5px;
-}
 
 .Medium-Blogs{
     display:grid; 
     grid-template-columns: 1fr 1fr 1fr;
-    width:79%; 
+    width:89%; 
     grid-gap:15px;
     padding:27px 0 15.5px 25px ;
 }
@@ -245,34 +224,17 @@ opacity:1;
 }
 @media only screen and (max-width:670px) {
     .Caption h2{
-    font-size:15.15px; 
-        
-    } .Caption p{
+    font-size:15.15px;     }
+    .Caption p{
         font-size:14.4px;
     }
     
     .Medium-Blogs{width:90%;
     grid-template-columns:1fr;}
     
-    .MediumBlog h2{
+    .Fun-Home h2{
         padding:0; margin:0; 
         font-size:17px;
-text-align:center; 
-    } 
-
+        text-align:center; } 
 
 }
-@media only screen and (min-width:1080px) {
-    .Youtube-Videos iframe{
-        width:350px;
-        height:196.8px}
-        .Youtube-Videos{
-            grid-template-columns: 1fr 1fr; 
-        }
-
-        nav-3{
-            margin:0 auto; 
-            width:67%;
-        }
-    
-    }
