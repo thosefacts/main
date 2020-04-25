@@ -65,9 +65,16 @@ footer a{
 
 @media only screen and (min-width:1150px) {
     .TravelTextGrid{
-        width:57%; 
+        width:41%; 
     }
+    .TravelTextGridSmaller{width:60%;; }
+    
+.TravelTextGrid img{
+    width:65%; 
+    } 
 
     #TravelPic{width:40%;;} 
+    
+    .
 }  
 
