@@ -53,6 +53,14 @@ nav p{
 
 }
 
+@media only screen and (max-width: 450px) {
+    nav{
+        grid-template-columns: 2fr 4fr 8fr ;
+    }
+
+}
+
+
 
     nav div{
         font-size:14.5px;
@@ -289,34 +297,3 @@ details a:hover{  }
 
 ::-webkit-scrollbar {
     display:none;
-    /*
-    width: 10px;
-    max-height:50%;*/
-  }
-  
-  /* Track */
-  ::-webkit-scrollbar-track {
-      background:rgb(226, 226, 226); 
-     /*background-image: -webkit-linear-gradient(top, orange, white,  white, white, white, white, white);*/
-   /* 
-    background-image: -webkit-linear-gradient(bottom, white,  rgb(70, 70, 70);*/
-  }
-  /* Handle */
-  ::-webkit-scrollbar-thumb {
-    background:rgb(83, 83, 83);  
-    /*
-    background-image: -webkit-linear-gradient(top, orange, white, white, white);}*/
-   /*background:rgb(70, 70, 70);
-
-
-    background-image: -webkit-linear-gradient(bottom, white,  rgb(70, 70, 70));/*
-
-    border-radius:4px;
-  }
-
-  /* Handle on hover */
-}
-  ::-webkit-scrollbar-thumb:hover {
-    background:#555;
-
-  }
