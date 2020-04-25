@@ -78,6 +78,5 @@ header{
 
 @media only screen and (max-width: 600px) {
     iframe{
-        width:150px; 
-        height:83px; 
-}
+        width:80%;
+    }}
