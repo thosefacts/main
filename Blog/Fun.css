@@ -240,6 +240,9 @@ opacity:1;
     } .Caption p{
         font-size:14.4px;
     }
+    
+    .Medium-Blogs{
+    grid-template-columns:1fr;}
 
 
 }
