@@ -233,6 +233,14 @@ opacity:1;
     text-shadow:.7px .7px rgb(213, 175, 224);
 }
 
+@media only screen and (max-width:770px) {
+
+    .Medium-Blogs{
+        width:90%; 
+    grid-template-columns:1fr 1fr;}
+
+
+}
 @media only screen and (max-width:670px) {
     .Caption h2{
     font-size:15.15px; 
@@ -241,7 +249,7 @@ opacity:1;
         font-size:14.4px;
     }
     
-    .Medium-Blogs{
+    .Medium-Blogs{width:90%;
     grid-template-columns:1fr;}
 
 
