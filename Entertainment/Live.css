@@ -158,6 +158,7 @@ header{
 footer{
     text-align:center;
     margin:0 auto;
+    color:rgb(100, 38, 100); 
 }
 footer a{
     font-size:17.2px;
