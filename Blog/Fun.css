@@ -234,9 +234,12 @@ opacity:1;
 }
 
 @media only screen and (max-width:670px) {
-    .Caption p{
-        display:none; 
-    } 
+    .Caption h2{
+    font-size:15.15px; 
+        
+    } .Caption p{
+        font-size:14.4px;
+    }
 
 
 }
