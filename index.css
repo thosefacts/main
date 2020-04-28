@@ -201,6 +201,9 @@ font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida San
 padding-left:85px;
 padding-right:49px;
 }
+.NewsBox a:hover{
+    text-decoration:underline; 
+} 
 header{
     padding-top:25px;
     padding-bottom:11px; 
